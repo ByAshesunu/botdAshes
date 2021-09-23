@@ -57,14 +57,14 @@ const _level = JSON.parse(fs.readFileSync('./database/json/level.json'))
 /******FIN DE ENTRADA JSON******/
 
 /******INICIO DE LA ENTRADA DEL MENÚ******/
-const { help } = require('./src/help')
+const { 𝑨𝒚𝒖𝒅𝒂 } = require('./src/help')
 const { logomaker } = require('./database/menu/logomaker')
 const { toinmenu } = require('./src/toinmenu')
 const { menuadmin } = require('./src/menuadmin')
 const { nsfwmenu } = require('./src/nsfwmenu')
 const { desmenu } = require('./src/desmenu')
 const { version } = require('./src/version')
-const { juegos } = require('./src/juegos')
+const { 𝙅𝙪𝙚𝙜𝙤𝙨 } = require('./src/juegos')
 const { shantera } = require('./src/shantera')
 const { antimenu } = require('./src/antimenu')
 const { welmenu } = require('./src/welmenu')
@@ -82,7 +82,7 @@ const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
-prefix = '*'
+prefix = '.'
 blocked = []
 banChats = false
 
