@@ -300,7 +300,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Calmao panita estoy procesando😎\n\n❗Por favor no hacer spam👏❗\n\n_*by shanduy*_',
+				wait: 'Calmao panita estoy procesando😎\n\n❗no hacer spam👏❗\n\n_*by shanduy*_',
 				success: '✔️ Ya mi pana 😎 ✔️',
                                 levelon: '❬ ✅ ❭ *Level activado*',
 				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
@@ -619,14 +619,14 @@ if (budy.includes("https://m.facebook.com/")){
 
 			}
 			switch(command) {
-		case 'help':
+		case '𝑨𝒚𝒖𝒅𝒂':
 		case 'menu':
 	        client.sendMessage(from, help(prefix, sender), text, {quoted: mek})
 		break
                 case 'otak':
 		client.sendMessage(from, otak(prefix, sender), text, {quoted: mek})
 		break
-		case 'juegos':
+		case '𝙅𝙪𝙚𝙜𝙤𝙨':
 		client.sendMessage(from, juegos(prefix, sender), text, {quoted: mek})
 		break
 		case 'idioma':
@@ -716,8 +716,8 @@ rate = body.slice(5)
 client.updatePresence(from, Presence.composing) 
 random = `${Math.floor(Math.random() * 100)}`
 gay = random
-if (gay < 20 ) {ga = 'Usted es hetero 🤪🤙'} else if (gay == 21 ) {ga = 'Mas o menos 🤔'} else if (gay == 23 ) {ga = 'Mas o menos 🤔'} else if (gay == 24 ) {ga = 'Mas o menos 🤔'} else if (gay == 25 ) {ga = 'Mas o menos 🤔'} else if (gay == 26 ) {ga = 'Mas o menos 🤔'} else if (gay == 27 ) {ga = 'Mas o menos 🤔'} else if (gay == 28 ) {ga = 'Mas o menos 🤔'} else if (gay == 29 ) {ga = 'Mas o menos 🤔'} else if (gay == 30 ) {ga = 'Mas o menos 🤔'} else if (gay == 31 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 32 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 33 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 34 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 35 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 36 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 37 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 38 ) {ga = 'TTengo mi dudas 😑'} else if (gay == 39 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 40 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 41 ) {ga = 'Tengo razon? 😏'} else if (gay == 42 ) {ga = 'Tengo razon? 😏'} else if (gay == 43 ) {ga = 'Tengo razon? 😏'} else if (gay == 44 ) {ga = 'Tengo razon? 😏'} else if (gay == 45 ) {ga = 'Tengo razon? 😏'} else if (gay == 46 ) {ga = 'Tengo razon? 😏'} else if (gay == 47 ) {ga = 'Tengo razon? 😏'} else if (gay == 48 ) {ga = 'Tengo razon? 😏'} else if (gay == 49 ) {ga = 'Tengo razon? 😏'} else if (gay == 50 ) {ga = 'Eres o no? 🧐'} else if (gay > 51) {ga = 'Usted es gay 🥸'}
-hasil = `${rate}Usted es ${random}% gay\n\n${ga}`
+if (gay < 20 ) {ga = 'eri hetero pa 🤪🤙'} else if (gay == 21 ) {ga = 'casi gay 🤔'} else if (gay == 23 ) {ga = 'te falta bro 🥶'} else if (gay == 24 ) {ga = 'Mas o menos 🤔'} else if (gay == 25 ) {ga = 'Mas o menos 🤔'} else if (gay == 26 ) {ga = 'Mas o menos 🤔'} else if (gay == 27 ) {ga = 'Mas o menos 🤔'} else if (gay == 28 ) {ga = 'Mas o menos 🤔'} else if (gay == 29 ) {ga = 'Mas o menos 🤔'} else if (gay == 30 ) {ga = 'Mas o menos 🤔'} else if (gay == 31 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 32 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 33 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 34 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 35 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 36 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 37 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 38 ) {ga = 'TTengo mi dudas 😑'} else if (gay == 39 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 40 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 41 ) {ga = 'Tengo razon? 😏'} else if (gay == 42 ) {ga = 'Tengo razon? 😏'} else if (gay == 43 ) {ga = 'Tengo razon? 😏'} else if (gay == 44 ) {ga = 'Tengo razon? 😏'} else if (gay == 45 ) {ga = 'Tengo razon? 😏'} else if (gay == 46 ) {ga = 'Tengo razon? 😏'} else if (gay == 47 ) {ga = 'Tengo razon? 😏'} else if (gay == 48 ) {ga = 'Tengo razon? 😏'} else if (gay == 49 ) {ga = 'Tengo razon? 😏'} else if (gay == 50 ) {ga = 'Eres o no? 🧐'} else if (gay > 51) {ga = 'Usted es gay 🥸'}
+hasil = `${rate}Alto ${random}% gay\n\n${ga}`
 reply(hasil)
 break
 
@@ -737,7 +737,7 @@ try{
 if (!isUser) return reply(mess.only.daftarB)
 if (!isGroup) return reply(mess.only.group)
 d = []
-teks = 'Top 5 de los mas gays del grupo\n\n'
+teks = 'Top 5 Lusters más gays 🏳️\n\n'
 for(i = 0; i < 5; i++) {
 r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
 teks += `➔ @${groupMembers[r].jid.split('@')[0]}\n`
@@ -768,7 +768,7 @@ break
 		
 	
 	case 'creador':
-	       client.sendMessage(from, {displayname: "Shan 🥸", vcard: vcard}, MessageType.contact, { quoted: mek})
+	       client.sendMessage(from, {displayname: " 🥸", vcard: vcard}, MessageType.contact, { quoted: mek})
 		client.sendMessage(from, 'Hola 👋 te saluda Shan, este es un mensaje predeterminado al igual que el audio.\n\nArriba esta mi contacto por si tienen algun problema con las descargas o yo que se.\nYo no soy dueño de este bot ni tampoco lo controlo, yo solo cree la base de datos y le doy mantenimiento.\nEl numero osea mi contacto de arriba no es un bot, si te dio pereza escuchar el audio gordito trolo.\nBueno disfruten del bot y si quieres me puedes seguir en instagram.\n\n*Mi instagram:* https://www.instagram.com/thepavos\n\n*Como instalar el bot:* https://www.youtube.com/watch?v=2LQSzEbpJ-M\n\n_*by shanduy*_',MessageType.text, { quoted: mek} )
                 const none = fs.readFileSync('./mp3/shan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -820,7 +820,7 @@ break
 					client.updatePresence(from, Presence.composing) 
                                         if (!isUser) return reply(mess.only.daftarB)
 					if (!isGroup) return reply(mess.only.group)
-					teks = `*Lista De Administradores Del Grupo*\n\n${groupMetadata.subject}\n\nTotal: ${groupAdmins.length}\n\n`
+					teks = `*Lista De Admins Del Grupo*\n\n${groupMetadata.subject}\n\nTotal: ${groupAdmins.length}\n\n`
 					no = 0
 					for (let admon of groupAdmins) {
 						no += 1
@@ -1431,12 +1431,12 @@ break
 case 'r':
 client.updatePresence(from, Presence.composing)
 if (isUser) return reply('Ya estas registrado gil 🧐')
-if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}daftar Nombre\n\nEjemplo: ${prefix}daftar shanduy`)
+if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}r Nombre\n\nEjemplo: ${prefix}r soyunluster`)
 var reg = body.slice(8)
 var nombre = reg.split("|")[0];
 user.push(sender)
 fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`DNI: MALASO 🥸\`\`\`\n\n\`\`\`Hora EC: ${time}\`\`\`\n\n\`\`\`Fecha: ${date}\`\`\`\n\n\`\`\`[Usuario]: ${nombre}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usuários: ${user.length}\`\`\``, text, {quoted: mek})
+client.sendMessage(from, `\`\`\`REGISTRADO MI PANA😎 ✅\`\`\`\n\n\`\`\`DNI: Luster 👹\`\`\`\n\n\`\`\`Hora NA: ${time}\`\`\`\n\n\`\`\`Fecha: ${date}\`\`\`\n\n\`\`\`[Usuario]: ${nombre}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usuários: ${user.length}\`\`\``, text, {quoted: mek})
 break
                                 
 //FIN DE REGISTRO  
