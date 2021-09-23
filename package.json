@@ -38,10 +38,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ByAshesunu/botdAshes.git"
+    "url": "git+https://github.com/shanduy/ShanBot.git"
   },
   "bugs": {
-    "url": "https://github.com/ByAshesunu/botdAshes.git"
+    "url": "https://github.com/shanduy/ShanBot.git"
   },
-  "homepage": "https://github.com/ByAshesunu/botdAshes#readme"
+  "homepage": "https://github.com/shanduy/ShanBot#readme"
 }
