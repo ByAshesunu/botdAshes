@@ -1011,7 +1011,7 @@ break
 						fs.writeFileSync('./src/antitik.json', JSON.stringify(antitik))
 						reply('❬ ✅ ❭ La funcion de antilink de Tik Tok esta deshabilitada en este grupo')
 					} else {
-						reply('Coloque *antimenu para ver los comandos de activación de los antilinks')
+						reply('Coloque *nomenu para ver los comandos de activación de los antilinks')
 					}
 					break 
 				
@@ -1256,7 +1256,7 @@ break
 				
 //CREACION DE STICKERS Y VARIOS				
 				
-				case 's':
+				case 'st':
 				case 'tucson':
 				case 'opa':
 				case 'shan':
@@ -1428,9 +1428,9 @@ break
 				
 //REGISTRO				
 
-case 'daftar':
+case 'r':
 client.updatePresence(from, Presence.composing)
-if (isUser) return reply('Ya estas registrado 🧐')
+if (isUser) return reply('Ya estas registrado gil 🧐')
 if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}daftar Nombre\n\nEjemplo: ${prefix}daftar shanduy`)
 var reg = body.slice(8)
 var nombre = reg.split("|")[0];
