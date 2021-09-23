@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "stort": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "termux",
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Ashe",
+  "author": "ByAshesunu",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
